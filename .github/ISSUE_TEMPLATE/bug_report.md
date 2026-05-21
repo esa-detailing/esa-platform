@@ -1,37 +1,53 @@
 ---
-name: Bug Report
-about: Report a problem with the ESA Platform
+name: 🐛 Bug Report
+about: Report a problem so we can fix it
 title: '[BUG] '
 labels: bug
 assignees: ''
 ---
 
-## 🐛 Bug Description
+## 🐛 Description
 
 A clear and concise description of the issue.
 
+---
+
 ## 🔁 Steps to Reproduce
 
-1. Go to...
-2. Click on...
-3. Scroll to...
-4. See error...
+1. Go to…
+2. Click…
+3. Scroll…
+4. See error…
 
-## 📸 Screenshots
+---
 
-If applicable, add screenshots to help explain the problem.
-
-## 🧪 Expected Behaviour
+## 🧠 Expected Behaviour
 
 What you expected to happen.
 
+---
+
+## 💥 Actual Behaviour
+
+What actually happened.
+
+---
+
+## 📸 Screenshots / Videos
+
+If applicable, add screenshots or screen recordings.
+
+---
+
 ## 🖥 Environment
 
-- Device:
-- OS:
-- Browser:
-- Version:
+- Device: (e.g. iPhone 14, Windows PC)
+- OS: (e.g. iOS 17, Windows 11)
+- Browser: (e.g. Chrome 124, Safari)
+- App Version: (if applicable)
+
+---
 
 ## 📝 Additional Context
 
-Add any other context about the problem here.
+Add any other relevant information here.

@@ -1,4 +1,5 @@
-# CODEOWNERS for ESA Platform
+# 👑 ESA Platform Code Owners
+# These users automatically become reviewers on matching changes.
 
-# Mark Mercer owns the entire repository
-* @esa-detailing-code
+# Entire repository
+* @esa-detailing

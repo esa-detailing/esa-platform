@@ -1,18 +1,24 @@
-# Contributing to ESA-PLATFORM
+# 🤝 Contributing to ESA Platform
 
-Thanks for wanting to contribute — your help makes this project better. This document explains how to get set up, the workflow we use, and what we expect from contributors.
+Thank you for considering contributing to ESA Platform.  
+This document outlines the process and standards for contributing to the project.
 
-## Table of contents
+---
 
-- Getting started
-- Code style and linting
-- Branching and commits
-- Pull request process
-- Reporting issues
-- Tests
-- Security
-- Code of conduct
+## 🧱 Project Structure
 
-## Getting started
+The project is split into:
 
-1. Fork the repository and clone your fork:
+- **backend/** – Node.js + Express API, Prisma, Stripe, DVLA/Postcode lookups
+- **frontend/** – React/Vite booking flow
+- **src/** – Next.js marketing site
+- **public/** – Static assets
+
+Please ensure you are working in the correct area before making changes.
+
+---
+
+## 🛠 Development Setup
+
+1. Clone the repository
+2. Install dependencies:
