@@ -1,0 +1,29 @@
+{
+  "name": "esa-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "prepare": "husky install",
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.5",
+    "prettier": "^3.8.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,md}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  }
+}

@@ -1,0 +1,14 @@
+.page-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-header h1 {
+  font-size: 48px;
+  color: gold;
+}
+
+.page-header p {
+  color: #ccc;
+  font-size: 20px;
+}

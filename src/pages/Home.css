@@ -1,0 +1,65 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+}
+
+.home-hero {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  padding: 60px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(255, 215, 0, 0.15);
+}
+
+.home-title {
+  font-size: 64px;
+  color: gold;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.home-subtitle {
+  font-size: 22px;
+  color: #ddd;
+  margin-bottom: 40px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 16px 28px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.btn-primary {
+  background: gold;
+  color: #000;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid gold;
+  color: gold;
+}

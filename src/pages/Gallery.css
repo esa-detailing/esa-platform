@@ -1,0 +1,23 @@
+.gallery {
+  padding: 80px 20px;
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.gallery-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  height: 200px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=900&q=80');
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
+}

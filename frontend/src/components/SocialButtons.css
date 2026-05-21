@@ -1,0 +1,24 @@
+.social-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.social-btn {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.fb {
+  background: #1877f2;
+}
+.ig {
+  background: #e1306c;
+}
+.wa {
+  background: #25d366;
+}
