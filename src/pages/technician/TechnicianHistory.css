@@ -1,0 +1,10 @@
+.tech-history-container {
+  padding: 30px;
+}
+
+.tech-history-item {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,23 @@
+.job-summary-container {
+  padding: 30px;
+}
+
+.job-summary-block {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.job-summary-photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.job-summary-thumb {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}

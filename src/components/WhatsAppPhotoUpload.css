@@ -1,0 +1,24 @@
+.wa-box {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.wa-button {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  background: #25d366;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.wa-button:hover {
+  background: #1da851;
+}

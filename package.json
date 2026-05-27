@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "format": "prettier --write .",
-    "prepare": "husky install",
-    "dev": "next dev"
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",

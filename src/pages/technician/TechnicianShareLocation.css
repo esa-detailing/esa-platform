@@ -1,0 +1,16 @@
+.shareloc-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.shareloc-btn {
+  width: 100%;
+  padding: 18px;
+  background: #25d366;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+}

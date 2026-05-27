@@ -1,0 +1,35 @@
+.photos-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.photo-input {
+  margin-bottom: 20px;
+}
+
+.photo-preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.photo-thumb {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.photos-next-btn {
+  width: 100%;
+  padding: 16px;
+  background: #25d366;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  margin-top: 25px;
+  cursor: pointer;
+}

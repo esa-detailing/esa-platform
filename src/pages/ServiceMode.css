@@ -1,0 +1,32 @@
+.service-mode-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.service-mode-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.service-mode-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.service-mode-button {
+  background: #000;
+  color: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.service-mode-button:hover {
+  background: #333;
+}

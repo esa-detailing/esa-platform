@@ -1,0 +1,27 @@
+.postcode-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.postcode-input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.postcode-button {
+  padding: 14px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.postcode-button:hover {
+  background: #333;
+}

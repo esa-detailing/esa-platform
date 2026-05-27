@@ -1,26 +1,62 @@
-# ESA Detailing Platform
+# 🚗 ESA Detailing Platform
 
-A full-stack booking and automation platform for ESA Detailing, built with modern tooling and a premium customer experience in mind.
+Professional booking, payments, and customer management system for ESA Detailing (Liverpool, UK).
 
-## 🚗 Features
+The ESA Platform is a full‑stack application designed to streamline vehicle detailing bookings, automate customer communication, and provide a premium digital experience for clients.
 
-- Online booking system with fraud prevention
-- DVLA lookup integration
+---
+
+## ✨ Features
+
+### 🧼 Customer Booking System
+
+- Full online booking flow
+- DVLA vehicle lookup
 - UK postcode validation
 - WhatsApp photo upload button
-- Stripe 50% deposit payments
-- Admin dashboard for managing bookings
-- Price on Request system for motorcycles, ATVs, jetskis, and boats
+- 50% deposit via Stripe
+- Automatic confirmations & reminders
 
-## 🛠 Tech Stack
+### 🛠 Admin Dashboard
+
+- View, edit, and manage bookings
+- Manual price entry
+- Special Vehicles “Price on Request” section
+- Fraud‑prevention tools
+- Customer communication shortcuts
+
+### 💳 Payments & Security
+
+- Stripe integration
+- Secure deposit handling
+- Verified UK phone/email checks
+
+---
+
+## 🏗 Tech Stack
+
+### **Frontend**
+
+- React / Vite
+- TypeScript (where applicable)
+- Tailwind / Custom CSS
+- Component‑based UI system
+
+### **Backend**
+
+- Node.js
+- Express
+- Stripe API
+- DVLA & Postcode APIs
+
+### **Marketing Site**
 
 - Next.js
-- Node.js
-- Husky (pre-commit hooks)
-- Prettier (code formatting)
-- Lint-staged (staged file formatting)
-- Stripe API
-- DVLA API
-- Postcode validation API
+- SEO‑optimised
+- Fast static rendering
 
-## 📦 Installation
+---
+
+## 🚀 Getting Started (Development)
+
+### 1. Clone the repo

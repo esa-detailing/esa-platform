@@ -1,33 +1,49 @@
-# 🔐 Security Policy
+# 🛡 Security Policy
 
-## Supported Versions
+Thank you for helping keep ESA Platform secure.
 
-The ESA Platform is currently under active development.  
-Security updates will be applied to the latest version only.
+We take security seriously and appreciate responsible disclosure of any vulnerabilities.
 
-## Reporting a Vulnerability
+---
 
-If you discover a security issue, please report it privately.
+## 🔐 Supported Versions
 
-### 📩 Contact
+Security updates apply to the latest version of the platform.  
+Older versions may not receive patches.
 
-Email: security@esadetailing.co.uk  
-(If this address is not active yet, please use your main business email.)
+---
 
-Please include:
+## ⚠️ Reporting a Vulnerability
 
-- A clear description of the issue
+If you discover a security issue, **do NOT open a public GitHub issue**.
+
+Instead, please contact the project owner directly:
+
+**Email:** esa-detailing@outlook.com  
+**Subject:** “Security Report – ESA Platform”
+
+Include as much detail as possible:
+
 - Steps to reproduce
-- Potential impact
-- Any suggested fixes
+- Impact of the issue
+- Screenshots or logs (if safe to share)
+- Suggested fix (optional)
 
-We aim to respond within 48 hours.
+We aim to acknowledge all reports within **48 hours**.
 
-## ❗ Do Not
+---
 
-- Do not open a public GitHub issue for security vulnerabilities
-- Do not share the vulnerability publicly before it is fixed
+## 🧪 Responsible Disclosure
 
-## 🛠 Responsible Disclosure
+Please:
 
-We appreciate responsible disclosure and will credit contributors who help keep the platform secure.
+- Do not publicly disclose the vulnerability
+- Do not test against live customer data
+- Do not attempt to access accounts you do not own
+- Do not perform denial‑of‑service testing
+
+---
+
+## ❤️ Thank You
+
+Your efforts help keep ESA Platform safe for everyone.

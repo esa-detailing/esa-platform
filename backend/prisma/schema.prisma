@@ -1,22 +1,23 @@
+// Prisma + PostgreSQL schema for ESA Detailing
+
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = "file:./dev.db"
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model Booking {
-  id           Int      @id @default(autoincrement())
-  name         String
-  email        String
-  phone        String
-  postcode     String
-  vehicleReg   String
-  service      String
-  date         String
-  time         String
-  depositPaid  Boolean  @default(false)
-  createdAt    DateTime @default(now())
+  id            Int      @id @default(autoincrement())
+  fullName      String
+  email         String
+  phone         String
+  vehicleReg    String
+  serviceType   String
+  date          DateTime
+  timeSlot      String
+  depositPaid   Boolean  @default(false)
+  createdAt     DateTime @default(now())
 }

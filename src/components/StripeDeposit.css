@@ -1,0 +1,23 @@
+.deposit-box {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.deposit-button {
+  width: 100%;
+  padding: 16px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.deposit-button:hover {
+  background: #333;
+}
