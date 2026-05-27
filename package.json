@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "format": "prettier --write .",
     "prepare": "husky install"
   },
@@ -22,10 +22,5 @@
     "*.{js,jsx,ts,tsx,json,css,md}": [
       "prettier --write"
     ]
-  },
-  "dependencies": {
-    "next": "^16.2.6",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6"
   }
 }
