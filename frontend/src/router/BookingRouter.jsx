@@ -1,37 +1,19 @@
-import React, { useState } from 'react'
-import MobileBooking from '../pages/MobileBooking'
-import BookingReview from '../pages/BookingReview'
-import BookingLoader from '../components/BookingLoader'
-import BookingSuccess from '../pages/BookingSuccess'
-import BookingError from '../pages/BookingError'
-import { handleFinalBooking } from '../utils/BookingSubmitHandler'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Booking from '../pages/Booking';
+import BookingMenu from '../pages/BookingMenu';
+import About from '../pages/About';
+// import BookingSuccess from '../pages/BookingSuccess';
 
-export default function BookingRouter() {
-  const [step, setStep] = useState('form')
-  const [formData, setFormData] = useState({})
-
-  const handleFormComplete = (data) => {
-    setFormData(data)
-    setStep('review')
-  }
-
-  const handleSubmit = () => {
-    setStep('loading')
-
-    handleFinalBooking(
-      formData,
-      () => setStep('success'),
-      () => setStep('error')
-    )
-  }
-
+const BookingRouter = () => {
   return (
-    <>
-      {step === 'form' && <MobileBooking onComplete={handleFormComplete} />}
-      {step === 'review' && <BookingReview data={formData} onSubmit={handleSubmit} />}
-      {step === 'loading' && <BookingLoader />}
-      {step === 'success' && <BookingSuccess />}
-      {step === 'error' && <BookingError />}
-    </>
-  )
-}
+    <Routes>
+      <Route path="/" element={<Booking />} />
+      <Route path="/menu" element={<BookingMenu />} />
+      <Route path="/about" element={<About />} />
+      {/* <Route path="/success" element={<BookingSuccess />} /> */}
+    </Routes>
+  );
+};
+
+export default BookingRouter;
